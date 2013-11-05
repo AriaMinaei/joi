@@ -3,7 +3,7 @@
 
 Object schema validation (This is a temporary fork to experiment with some additional validators, including inheritance validation.)
 
-[![Build Status](https://secure.travis-ci.org/spumko/joi.png)](http://travis-ci.org/spumko/joi)
+[![Build Status](https://secure.travis-ci.org/AriaMinaei/joiful-experiments.png)](http://travis-ci.org/AriaMinaei/joiful-experiments)
 
 
 # Table of Contents
