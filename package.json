@@ -1,8 +1,8 @@
 {
-  "name": "joi",
+  "name": "joiful-experiments",
   "description": "Object schema validation",
   "version": "1.2.2",
-  "repository": "git://github.com/spumko/joi",
+  "repository": "git://github.com/AriaMinaei/joiful-experiments",
   "main": "index",
   "keywords": [
     "schema",
@@ -23,7 +23,7 @@
   "licenses": [
     {
       "type": "BSD",
-      "url": "http://github.com/spumko/joi/raw/master/LICENSE"
+      "url": "http://github.com/AriaMinaei/joiful-experiments/raw/master/LICENSE"
     }
   ]
 }
