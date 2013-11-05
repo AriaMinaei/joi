@@ -1,7 +1,7 @@
 <a href="https://github.com/spumko"><img src="https://raw.github.com/spumko/spumko/master/images/from.png" align="right" /></a>
 ![joi Logo](https://raw.github.com/spumko/joi/master/images/joi.png)
 
-Object schema validation
+Object schema validation (This is a temporary fork to experiment with some additional validators, including inheritance validation.)
 
 [![Build Status](https://secure.travis-ci.org/spumko/joi.png)](http://travis-ci.org/spumko/joi)
 
@@ -455,14 +455,14 @@ To force Joi to not convert object values, use the `skipConversions` option:
 
 #### Allow Extra Keys & Strip Extra Keys
 
-By default Joi will throw an error on keys that are not specified in the configuration object. 
+By default Joi will throw an error on keys that are not specified in the configuration object.
 
 To force Joi to not throw errors when it encounters an unknown key, use the `allowExtraKeys` option:
 
     Joi.settings.allowExtraKeys = true;
 
 If you'd like Joi to remove the unknown keys from the object, enable both the `stripExtraKeys` option and the `allowExtraKeys` option:
-    
+
     Joi.settings.allowExtraKeys = true;
     Joi.settings.stripExtraKeys = true;
 
